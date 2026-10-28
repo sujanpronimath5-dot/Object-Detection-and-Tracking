@@ -1,0 +1,17 @@
+# Runtime dependencies for the real-time object detection and tracking app.
+# Python 3.10-3.12 are supported; this project was verified with Python 3.11.9.
+#
+# For a CUDA-enabled GPU, install the matching PyTorch build from
+# https://pytorch.org/get-started/locally/ first, then install this file.
+
+ultralytics>=8.4.0,<9.0
+torch>=2.0
+torchvision>=0.15
+opencv-python>=4.8.0,<5.0
+numpy>=1.24,<3.0
+pandas>=2.0,<3.0
+streamlit>=1.37.0,<2.0
+lap>=0.5.12
+
+# Test dependency (pytest is only needed to run tests/test_*.py).
+pytest>=8.0

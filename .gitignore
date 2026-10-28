@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / local Streamlit overrides
+.streamlit/secrets.toml
+
+# Generated media
+input_videos/uploads/
+output_videos/*.mp4
+output_videos/*.avi
+output_videos/*.mov
+output_videos/*.jpg
+output_videos/*.png
+
+# Local logs and scratch files
+*.log
+_smoke_*.py
+_apptest_probe.py
+
+# Model weights (keep your own copy under models/)
+models/*.pt
